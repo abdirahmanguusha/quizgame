@@ -1,0 +1,145 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font styles for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #E5F2FB; /* Light blue background color */
+  }
+  
+  /* Center-align elements within the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  /* Style the title section */
+  .title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0074c2; /* Blue title color */
+  }
+  
+  /* Style the result section */
+  .result {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+  }
+  
+  .percentage {
+    font-weight: bold;
+    color: #0074c2;
+    
+  }
+  
+  /* Style the quiz section */
+  .quiz-header {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #0074c2; /* Blue header color */
+  }
+  
+  /* Style the question containers */
+  .question-container {
+
+    background-image: linear-gradient(to right top, #790045, #770255, #700d65, #631b76, #4f2787, #4440a0, #3157b6, #006dc9, #0095e3, #00b9eb, #00dce7, #5ffbdd);    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .question {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Style the choice containers */
+  .choice-container {
+    margin: 10px 0;
+    color:rgb(227, 221, 230);
+    font-size: 22px;
+  }
+  
+  .choice-container label {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 19px;
+  }
+  
+  /* Style the submit button */
+  .button {
+    background-color: #0074c2; /* Blue button background color */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #005b9d;
+    color: #fff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .restart-button{
+    
+  
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+ 
+  }
+  
+  .button:hover {
+    background-color: #005b9d;
+    color: #fff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+
+
+  
+  /* Media query for mobile screens */
+  @media (max-width: 767px) {
+    .container {
+      max-width: 90%;
+      padding: 10px;
+    }
+  
+    .question-container {
+      padding: 10px;
+    }
+  
+    .choice-container label {
+      font-size: 14px;
+    }
+  
+    .button {
+      font-size: 14px;
+    }
+  }
+  
+
+
+
